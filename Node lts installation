@@ -1,0 +1,19 @@
+sudo apt install curl
+Download the Node.js 18.16.0 binary distribution for Linux by running the following command:
+
+bash
+Copy code
+curl -o node-v18.16.0-linux-x64.tar.xz https://nodejs.org/dist/v18.16.0/node-v18.16.0-linux-x64.tar.xz
+Extract the downloaded archive using the following command:
+
+Copy code
+tar -xvf node-v18.16.0-linux-x64.tar.xz
+Copy the extracted files to the /usr/local directory:
+
+bash
+Copy code
+sudo cp -r node-v18.16.0-linux-x64/* /usr/local/
+Verify that Node.js is installed correctly by running:
+
+Copy code
+node -v
